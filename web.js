@@ -11,7 +11,7 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
   //response.send(buf.tostring('utf-8',0,Buffer.length));
-  response.send("hello test2");
+  response.send(index_fl);
 });
 
 var port = process.env.PORT || 5000;
